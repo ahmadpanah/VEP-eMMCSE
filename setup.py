@@ -23,7 +23,7 @@ def read_requirements():
         with open("requirements.txt", "r", encoding="utf-8") as fh:
             return [line.strip() for line in fh if line.strip() and not line.startswith("#")]
     except FileNotFoundError:
-        return ["cryptography>=41.0.7", "numpy>=1.24.3", "pqcrypto>=0.16.0"]
+        return ["cryptography>=41.0.7", "numpy>=1.24.3", "pqcrypto>=0.3.4"]
 
 setup(
     name="vep-emmcse",

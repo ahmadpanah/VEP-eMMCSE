@@ -5,7 +5,7 @@ scipy>=1.10.1
 pandas>=2.0.3
 
 # Post-quantum cryptography
-pqcrypto>=0.16.0
+pqcrypto>=0.3.4
 
 # Performance and utilities
 psutil>=5.9.0

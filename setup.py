@@ -28,8 +28,8 @@ def read_requirements():
 setup(
     name="vep-emmcse",
     version="1.0.0",
-    author="VEP-eMMCSE Research Team",
-    author_email="contact@vep-emmcse.org",
+    author="Seyed Hossein Ahmadpanah",
+    author_email="h.ahmadpanah@iau.ac.ir",
     description="Verifiable, Expressive, and Post-Quantum enhanced Multi-source Multi-client Searchable Encryption",
     long_description=read_readme(),
     long_description_content_type="text/markdown",

@@ -6,8 +6,6 @@ This module implements the core cryptographic building blocks required for
 the VEP-eMMCSE framework, including post-quantum PRFs, signatures, and
 other security primitives.
 
-Author: VEP-eMMCSE Research Team
-License: MIT
 """
 
 import os
